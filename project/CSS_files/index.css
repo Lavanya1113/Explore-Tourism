@@ -1,0 +1,68 @@
+body{
+    background-image: url(../images/bgimg.jpeg);
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+a:hover{
+    color: white;
+}
+.logo{
+    width:80px;
+    cursor: pointer;
+}
+.container{
+  margin-left: 100px;
+   height: 25vh;
+}
+.navb ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+li{
+    float: right;
+}
+.navb ul li::after{
+        content: '';
+        height: 3px;
+        width: 0;
+        background: #066b61;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        transition: 0.5s;
+}
+.navb ul li:hover::after{
+   width: 100%;
+}
+.jumbotron{
+    border: 1px solid rgb(44, 25, 25);
+    padding: 20px;
+}
+.logrex-box .form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: max-content;
+    background: transparent;
+    backdrop-filter: blur(1000px);
+    position: relative;
+    padding: 10px;
+}
+.input-transparent{
+    margin: 8px;
+    background-color: transparent;    
+}   
+.fa{   
+    font-size: 25px;
+    width: 30px;
+    color: #ffffff;  
+    padding: 10px;
+}
+
+
